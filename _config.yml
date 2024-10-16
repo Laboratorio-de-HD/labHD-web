@@ -1,8 +1,8 @@
 # Site settings
 title: Laboratorio de Humanidades Digitales 
 email: your-email@domain.com
-baseurl: "/sitio-web"
-url: "https://laboratorio-de-hd.github.io/sitio-web/"
+baseurl: "/labHD-web"
+url: "https://laboratorio-de-hd.github.io/labHD-web/"
 description: "Sitio web del Laboratorio de Humanidades Digitales del Tecnológico de Monterrey"
 keywords: "repositorios, proyectos, programas"
 #skills: "Web Developer - Graphic Artist - User Experience Designer"

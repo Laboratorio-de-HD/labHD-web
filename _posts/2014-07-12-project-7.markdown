@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Internacionalización
 modal-id: 7
 #date: 2014-07-15
 img: internacionalizacion.PNG

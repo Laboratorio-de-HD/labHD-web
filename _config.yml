@@ -38,11 +38,24 @@ color:
   secondary-dark: 610a8a #A2122F
 
 # Footer settings
-#footer:
+footer:
 #  copyright: Dr. Henry Jekyll
-#  location: Location
-#  social: Around the Web
+  location: AV. EUGENIO GARZA SADA 2501 COL. TECNOLÓGICO C.P. 64700 | MONTERREY, NUEVO LEÓN, MÉXICO | TEL. +52 (81) 8358-2000 D.R.© INSTITUTO TECNOLÓGICO Y DE ESTUDIOS SUPERIORES DE MONTERREY, MÉXICO. 2024
+  social: Around the Web
 #  credits: Credits
+ links:
+    - title: "Aviso Legal"
+      url: "https://tec.mx/es/aviso-legal"
+      target: "_blank" # para que se abra en otra pestaña 
+    - title: "Políticas de Privacidad"
+      url: "https://tec.mx/es/politicas-de-privacidad-del-tecnologico-de-monterrey"
+      target: "_blank"
+    - title: "Aviso de Privacidad"
+      url: "https://tec.mx/es/avisos-de-privacidad"
+      target: "_blank"
+  logo:
+    image: "/img/portfolio/logo.png"
+    alt: "Logo of the Institute"
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:

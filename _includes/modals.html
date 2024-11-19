@@ -1,7 +1,6 @@
 <!-- Portfolio Modals -->
 {% for post in site.posts %}
-<div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog"
-  aria-hidden="true">
+<div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-content">
     <div class="close-modal" data-dismiss="modal">
       <div class="lr">
@@ -36,8 +35,28 @@
               </li>
               {% endif %}
             </ul>
-            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
-              Close</button>
+
+            <!-- Agregar tabla dinámica para proyectos por sección -->
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Proyecto</th>
+                  <th>Descripción</th>
+                  <th>Aprende Más</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for project in post.projects %}
+                <tr>
+                  <td>{{ project.name }}</td>
+                  <td>{{ project.description }}</td>
+                  <td><a href="{{ project.icon-url }}"><img src="img/{{ project.icon-img }}" alt="Icon"></a></td>
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
           </div>
         </div>
       </div>

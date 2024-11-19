@@ -5,9 +5,6 @@ modal-id: 5
 date: 2024-11-18
 img: observatorios.PNG
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
 description: Buró Parlamentario y Observatorio de Medios Digitales.
 projects:
   - name: Buró Parlamentario

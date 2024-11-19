@@ -2,19 +2,24 @@
 layout: default
 title: Observatorios
 modal-id: 5
-#date: 2014-07-14
+date: 2024-11-18
 img: observatorios.PNG
 alt: image-alt
-#project-date: April 2014
-#client: Start Bootstrap
-#category: Web Development
+project-date: April 2014
+client: Start Bootstrap
+category: Web Development
 description: Buró Parlamentario y Observatorio de Medios Digitales.
+projects:
+  - name: Buró Parlamentario
+    description: AQUÍ VA LA DESCRIPCIÓN DEL PROYECTO
+    icon-url: https://deemby.org/
+    icon-img: buro_icon.png
+ <!-- - name: Proyecto 2
+    description: Descripción del Proyecto 2
+    icon-url: https://example.com/link2
+    icon-img: icon2.png
+  - name: Proyecto 3
+    description: Descripción del Proyecto 3
+    icon-url: https://example.com/link3
+    icon-img: icon3.png  -->
 ---
-
-| Proyecto | Descripción | Aprende Más |
-|--------------|-------------|------|
-| Buró Parlamentario    | AQUÍ VA LA DESCRIPCIÓN DEL PROYECTO | [![Icon](./img/buro_icon.png)](https://deemby.org/) |
-<!-- | Nombre del Proyecto    | Descripción del Proyecto | [![Icon](./img/icon2.png)](link del sitio web) | -->
-<!-- | Nombre del Proyecto    | Descripción del Proyecto | [![Icon](./img/icon3.png)](link del sitio web) | -->
-
- 

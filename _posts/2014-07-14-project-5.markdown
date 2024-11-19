@@ -10,3 +10,11 @@ alt: image-alt
 #category: Web Development
 description: Buró Parlamentario y Observatorio de Medios Digitales.
 ---
+
+| Proyecto | Descripción | Aprende Más |
+|--------------|-------------|------|
+| Buró Parlamentario    | AQUÍ VA LA DESCRIPCIÓN DEL PROYECTO | [![Icon](./img/buro_icon.png)](https://deemby.org/) |
+<!-- | Nombre del Proyecto    | Descripción del Proyecto | [![Icon](./img/icon2.png)](link del sitio web) | -->
+<!-- | Nombre del Proyecto    | Descripción del Proyecto | [![Icon](./img/icon3.png)](link del sitio web) | -->
+
+ 

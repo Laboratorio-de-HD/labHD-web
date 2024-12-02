@@ -54,7 +54,7 @@ footer:
       url: "https://tec.mx/es/avisos-de-privacidad"
       target: "_blank"
   logo:
-    image: "/img/portfolio/logo.png"
+    image: "img/portfolio/logo.png"
     alt: "Logo of the Institute"
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:

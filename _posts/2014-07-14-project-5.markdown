@@ -10,7 +10,7 @@ projects:
   - name: Observatorio de Medios Digitales
     description: El Observatorio de Medios Digitales es un proyecto interdisciplinar de la Vicerrectoría de Investigación del Tecnológico de Monterrey que busca identificar y monitorear narrativas dominantes y emergentes en el panorama de los medios digitales en México, así como evidenciar mecanismos de desinformación con el propósito de engañar a la población o manipular la opinión pública.
     icon-url: https://omd.tec.mx/es
-    icon-img: omd.PNG
+    icon-img: omd_icon.PNG
   - name: Buró Parlamentario
     description: AQUÍ VA LA DESCRIPCIÓN DEL PROYECTO
     icon-url: https://deemby.org/

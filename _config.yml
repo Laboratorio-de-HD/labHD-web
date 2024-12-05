@@ -60,6 +60,8 @@ footer:
 social:
   - title: youtube
     url: https://www.youtube.com/@EHEtecdeMty
+    target: "_blank"
+
 #  - title: twitter
 #    url: http://twitter.com/jekyllrb
 #  - title: facebook

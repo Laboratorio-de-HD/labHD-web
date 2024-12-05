@@ -1,16 +1,61 @@
-<!-- Timeline -->
-<section class="success" id="timeline">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2>Timeline</h2>
-        <hr class="star-light">
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css" rel="stylesheet">
+  <title>Interactive Timeline</title>
+</head>
+<body>
+  <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+
+  <!-- Timeline -->
+  <section class="success" id="timeline">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2>Timeline</h2>
+          <hr class="star-light">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <div id="timeline-embed"></div> <!--cambiar para que ahora ya no esté la imagen, sino que embed la timeline --> 
+        </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <img src="img/Timeline.png" alt="Trayectoria de las Humanidades Digitales en el Tecnológico de Monterrey" class="img-fluid">
-      </div>
-    </div>
-  </div>
-</section>
+  </section>
+
+  <!-- Información a desplegar en la Timeline -->
+  <script>
+    var timelineData = {
+      "title": {
+        "text": {
+          "headline": "Trayectoria de las Humanidades Digitales en el Tecnológico de Monterrey"
+        }
+      },
+      "events": [
+        {
+          "start_date": {
+            "year": "2020"
+          },
+          "text": {
+            "headline": "Nace la Maestría en Humanidades Digitales",
+            "text": "<p>93 graduados, 55 proyectos y 74 inscritos</p>"
+          }
+        },
+        {
+          "start_date": {
+            "year": "2021"
+          },
+          "text": {
+            "headline": "Declaramos Área Estratégica"
+          }
+        }
+      ]
+    };
+
+    window.timeline = new TL.Timeline('timeline-embed', timelineData);
+  </script>
+</body>
+</html>

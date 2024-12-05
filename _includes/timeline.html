@@ -3,14 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Timeline de Humanidades Digitales</title>
+  <title>Timeline</title>
   <style>
     .timeline {
       width: 80%;
       margin: 0 auto;
       padding: 20px;
-      border-left: 4px solid #800080; 
+      border-left: 4px solid #800080; /* Línea morada */
       position: relative;
+    }
+    .timeline-title {
+      text-align: center;
+      font-size: 2em;
+      color: #800080; /* Color morado */
+      margin-bottom: 20px;
     }
     .timeline-item {
       padding: 10px 20px;
@@ -31,7 +37,7 @@
     .timeline-item h3 {
       margin: 0 0 5px 0;
       font-size: 1.5em;
-      color: #800080; 
+      color: #800080; /* Título morado */
     }
     .timeline-item p {
       margin: 5px 0;
@@ -39,7 +45,15 @@
   </style>
 </head>
 <body>
-  <section class="timeline">
+  <nav>
+    <ul>
+      <li><a href="#timeline">Timeline</a></li>
+      <!-- Otros enlaces del menú -->
+    </ul>
+  </nav>
+
+  <section class="timeline" id="timeline">
+    <div class="timeline-title">Trayectoria de las Humanidades Digitales en el Tecnológico de Monterrey</div>
     <div class="timeline-item">
       <h3>2020 - Nace la Maestría en Humanidades Digitales</h3>
       <p>93 graduados, 55 proyectos y 74 inscritos</p>
